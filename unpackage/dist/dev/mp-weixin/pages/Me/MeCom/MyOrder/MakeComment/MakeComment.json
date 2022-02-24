@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "发表评论",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-rate": "/uview-ui/components/u-rate/u-rate",
+    "u-input": "/uview-ui/components/u-input/u-input"
+  }
+}

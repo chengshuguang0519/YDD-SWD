@@ -1,0 +1,1 @@
+<view class="mall"><view><image src="../../static/image/mallImg/more.png"></image></view><view data-event-opts="{{[['tap',[['goToMiniProgram',['$event']]]]]}}" class="title" bindtap="__e">更多商品点击此处跳转</view></view>

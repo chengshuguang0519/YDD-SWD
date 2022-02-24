@@ -1,0 +1,301 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle":"custom",
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#878788"
+			}
+		}
+	    ,{
+            "path" : "pages/SpecialEdition/SpecialEdition",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "专版定制",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/Mall/Mall",
+            "style" :                                                                                    
+            {
+				"navigationStyle":"custom",
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/Me/Me",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#fde9cf",
+				"navigationBarTextStyle": "black"
+            }
+            
+        }
+        ,{
+            "path" : "pages/Me/MeCom/MyExtension/MyExtension",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的推广",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/Me/MeCom/MyOrder/MyOrder",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的订单",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/Me/MeCom/MyMessage/MyMessage",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的消息",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/Me/MeCom/MyWallet/MyWallet",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的钱包",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/Me/MeCom/MyPromotion/MyPromotion",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的推广",
+				"navigationBarBackgroundColor": "#FE565B",
+				"navigationBarTextStyle": "white",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/Me/MeCom/UserNum/UserNum",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "用户数量",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/Me/MeCom/MyAddress/MyAddress",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "收货地址",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/Me/MeCom/ADDAddress/ADDAddress",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "新增收货地址",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/Me/MeCom/MyFeedback/MyFeedback",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "意见反馈",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        
+        ,{
+            "path" : "pages/SpecialEdition/SpecialEditionCom/AllCommentary/AllCommentary",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "全部评论",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/Me/MeCom/MyOrder/MakeComment/MakeComment",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "发表评论",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/Me/MeCom/MyOrder/OrderDetails/OrderDetails",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "订单详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/Me/MeCom/MyOrder/PayOrder/PayOrder",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "提交订单",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/Me/MeCom/MyOrder/paySuccess/paySuccess",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "支付成功",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/Me/MeCom/MyOrder/lookLogistics/lookLogistics",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "查看物流",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/Me/MeCom/MyOrder/ApplyRefund/ApplyRefund",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "申请退款",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/Me/MeCom/MyInformation/MyInformation",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "个人资料",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/Me/MeCom/MyCart/MyCart",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "购物车",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/Me/MeCom/MyWallet/MyWalletCom/Recharge/Recharge",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "充值",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/Me/MeCom/MyWallet/MyWalletCom/Withdrawal/Withdrawal",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "提现",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/Me/MeCom/MyWallet/MyWalletCom/MyMoreBill/MyMoreBill",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "账单记录",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/Me/MeCom/MyAddress/EditAddress/EditAddress",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "编辑收货地址",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/Me/MeCom/NotLogged/NotLogged",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "授权登录",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/Mall/MallCom/NavTo/NavTo",
+            "style" :                                                                                    
+            {
+				"navigationStyle":"custom",
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+       
+    ],
+	
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+		
+	},
+	"tabBar":{
+		"color":"#727272",
+		"selectedColor":"#f00",
+		"borderStyle":"black",
+		"list":[{
+			"pagePath":"pages/index/index",
+			"iconPath":"static/image/tabbar/shouye.png",
+			"selectedIconPath":"static/image/tabbar/shouye1.png",
+			"text":"首页"
+		},{
+			"pagePath":"pages/SpecialEdition/SpecialEdition",
+			"iconPath":"static/image/tabbar/zhuanban.png",
+			"selectedIconPath":"static/image/tabbar/zhuanban1.png",
+			"text":"专版"
+		},{
+			"pagePath":"pages/Mall/Mall",
+			"iconPath":"static/image/tabbar/shangcheng.png",
+			"selectedIconPath":"static/image/tabbar/shangcheng1.png",
+			"text":"商城"
+		},{
+			"pagePath":"pages/Me/Me",
+			"iconPath":"static/image/tabbar/me.png",
+			"selectedIconPath":"static/image/tabbar/me1.png",
+			"text":"我的"
+		}]
+		
+	}
+}

@@ -1,0 +1,72 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/SpecialEdition/SpecialEdition",
+        "pages/Mall/Mall",
+        "pages/Me/Me",
+        "pages/Me/MeCom/MyExtension/MyExtension",
+        "pages/Me/MeCom/MyOrder/MyOrder",
+        "pages/Me/MeCom/MyMessage/MyMessage",
+        "pages/Me/MeCom/MyWallet/MyWallet",
+        "pages/Me/MeCom/MyPromotion/MyPromotion",
+        "pages/Me/MeCom/UserNum/UserNum",
+        "pages/Me/MeCom/MyAddress/MyAddress",
+        "pages/Me/MeCom/ADDAddress/ADDAddress",
+        "pages/Me/MeCom/MyFeedback/MyFeedback",
+        "pages/SpecialEdition/SpecialEditionCom/AllCommentary/AllCommentary",
+        "pages/Me/MeCom/MyOrder/MakeComment/MakeComment",
+        "pages/Me/MeCom/MyOrder/OrderDetails/OrderDetails",
+        "pages/Me/MeCom/MyOrder/PayOrder/PayOrder",
+        "pages/Me/MeCom/MyOrder/paySuccess/paySuccess",
+        "pages/Me/MeCom/MyOrder/lookLogistics/lookLogistics",
+        "pages/Me/MeCom/MyOrder/ApplyRefund/ApplyRefund",
+        "pages/Me/MeCom/MyInformation/MyInformation",
+        "pages/Me/MeCom/MyCart/MyCart",
+        "pages/Me/MeCom/MyWallet/MyWalletCom/Recharge/Recharge",
+        "pages/Me/MeCom/MyWallet/MyWalletCom/Withdrawal/Withdrawal",
+        "pages/Me/MeCom/MyWallet/MyWalletCom/MyMoreBill/MyMoreBill",
+        "pages/Me/MeCom/MyAddress/EditAddress/EditAddress",
+        "pages/Me/MeCom/NotLogged/NotLogged",
+        "pages/Mall/MallCom/NavTo/NavTo"
+    ],
+    "subPackages": [],
+    "window": {
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "uni-app",
+        "navigationBarBackgroundColor": "#F8F8F8",
+        "backgroundColor": "#F8F8F8"
+    },
+    "tabBar": {
+        "color": "#727272",
+        "selectedColor": "#f00",
+        "borderStyle": "black",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "iconPath": "static/image/tabbar/shouye.png",
+                "selectedIconPath": "static/image/tabbar/shouye1.png",
+                "text": "首页"
+            },
+            {
+                "pagePath": "pages/SpecialEdition/SpecialEdition",
+                "iconPath": "static/image/tabbar/zhuanban.png",
+                "selectedIconPath": "static/image/tabbar/zhuanban1.png",
+                "text": "专版"
+            },
+            {
+                "pagePath": "pages/Mall/Mall",
+                "iconPath": "static/image/tabbar/shangcheng.png",
+                "selectedIconPath": "static/image/tabbar/shangcheng1.png",
+                "text": "商城"
+            },
+            {
+                "pagePath": "pages/Me/Me",
+                "iconPath": "static/image/tabbar/me.png",
+                "selectedIconPath": "static/image/tabbar/me1.png",
+                "text": "我的"
+            }
+        ]
+    },
+    "usingComponents": {},
+    "sitemapLocation": "sitemap.json"
+}

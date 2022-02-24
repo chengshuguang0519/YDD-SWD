@@ -1,0 +1,14 @@
+{
+  "navigationStyle": "custom",
+  "navigationBarTitleText": "",
+  "navigationBarBackgroundColor": "#878788",
+  "usingComponents": {
+    "u-swiper": "/uview-ui/components/u-swiper/u-swiper",
+    "u-notice-bar": "/uview-ui/components/u-notice-bar/u-notice-bar",
+    "u-mask": "/uview-ui/components/u-mask/u-mask",
+    "u-popup": "/uview-ui/components/u-popup/u-popup",
+    "u-input": "/uview-ui/components/u-input/u-input",
+    "u-upload": "/uview-ui/components/u-upload/u-upload",
+    "u-back-top": "/uview-ui/components/u-back-top/u-back-top"
+  }
+}

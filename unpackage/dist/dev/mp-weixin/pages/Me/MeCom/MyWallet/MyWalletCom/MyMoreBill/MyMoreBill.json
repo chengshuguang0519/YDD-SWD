@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "账单记录",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-back-top": "/uview-ui/components/u-back-top/u-back-top"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "申请退款",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-input": "/uview-ui/components/u-input/u-input",
+    "u-upload": "/uview-ui/components/u-upload/u-upload",
+    "u-popup": "/uview-ui/components/u-popup/u-popup",
+    "u-radio-group": "/uview-ui/components/u-radio-group/u-radio-group",
+    "u-radio": "/uview-ui/components/u-radio/u-radio"
+  }
+}

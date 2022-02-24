@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "专版定制",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-swiper": "/uview-ui/components/u-swiper/u-swiper",
+    "u-radio-group": "/uview-ui/components/u-radio-group/u-radio-group",
+    "u-radio": "/uview-ui/components/u-radio/u-radio",
+    "u-popup": "/uview-ui/components/u-popup/u-popup",
+    "u-upload": "/uview-ui/components/u-upload/u-upload",
+    "u-back-top": "/uview-ui/components/u-back-top/u-back-top"
+  }
+}
